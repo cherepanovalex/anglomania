@@ -2007,7 +2007,7 @@ figure {
     src: url(../fonts/Roboto-Regular.woff2) format("woff2"), url(../fonts/Roboto-Regular.woff) format("woff"), url(../fonts/Roboto-Regular.ttf) format("truetype");
     font-weight: 400;
     font-style: normal;
-    font-display: swap
+    /*font-display: swap*/
 }
 
 @font-face {
@@ -2015,7 +2015,7 @@ figure {
     src: url(../fonts/Roboto-Light.woff2) format("woff2"), url(../fonts/Roboto-Light.woff) format("woff"), url(../fonts/Roboto-Light.ttf) format("truetype");
     font-weight: 300;
     font-style: normal;
-    font-display: swap
+    /*font-display: swap*/
 }
 
 @font-face {
@@ -2023,7 +2023,7 @@ figure {
     src: url(../fonts/Intro-Book.woff2) format("woff2"), url(../fonts/Intro-Book.woff) format("woff"), url(../fonts/Intro-Book.ttf) format("truetype");
     font-weight: 400;
     font-style: normal;
-    font-display: swap
+    /*font-display: swap*/
 }
 
 @font-face {
@@ -2031,7 +2031,7 @@ figure {
     src: url(../fonts/Intro-Black-Caps.woff2) format("woff2"), url(../fonts/Intro-Black-Caps.woff) format("woff"), url(../fonts/Intro-Black-Caps.ttf) format("truetype");
     font-weight: 900;
     font-style: normal;
-    font-display: swap
+    /*font-display: swap*/
 }
 
 @font-face {
@@ -2039,7 +2039,7 @@ figure {
     src: url(../fonts/Intro-Light.woff2) format("woff2"), url(../fonts/Intro-Light.woff) format("woff"), url(../fonts/Intro-Light.ttf) format("truetype");
     font-weight: 300;
     font-style: normal;
-    font-display: swap
+    /*font-display: swap*/
 }
 
 html {
