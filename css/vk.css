@@ -2,7 +2,7 @@
     display: flex;
     height: 100vh;
     justify-content: center;
-    background: url("../img/vk-bg2.png") center center no-repeat;
+    /*background: url("../img/vk-bg2.png") center center no-repeat;*/
     background-size: cover;
     margin: -50px 0 0 0;
     padding: 70px 0 0 0;
@@ -32,8 +32,6 @@
 
 
 .scroll-icon-controls{
-    text-align: center;
-    padding: 80px 0 0 0;
     display: none;
 }
 
@@ -45,8 +43,12 @@
 @media (min-width: 320px ) and (max-width: 414px) {
     .scroll-icon-controls{
         text-align: center;
-        padding: 80px 0 0 0;
+        padding: 60px 0 0 0;
         display: block;
+    }
+
+    .vk-promo{
+        padding: 30% 0 0 0;
     }
 }
 
@@ -60,15 +62,19 @@
 
     .vk-promo{
         margin: 0;
-        padding: 0;
         min-height: 560px;
-        align-items: center;
     }
 
 }
 
+@media (min-width: 768px ) and (max-width: 1024px){
+    .vk-promo{
+        align-items: center;
+    }
+}
 
-@media (min-width: 992px ) and (max-width: 1200px) {
+
+    @media (min-width: 992px ) and (max-width: 1200px) {
     .vk-promo {
         min-height: 650px;
     }
