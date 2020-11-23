@@ -101,6 +101,6 @@
 @media (min-width: 768px) {
     .wrapper {
         background-image: url(../img/bg2.jpg);
-        background-position: 50% -100px;
+        background-position: 50% -200px;
     }
 }
