@@ -29,12 +29,25 @@
     border: 2px solid #ffffff;
     border-radius: 2px;
 }
-.scroll-icon{
+
+
+.scroll-icon-controls{
+    text-align: center;
+    padding: 80px 0 0 0;
     display: none;
-    position: absolute;
-    bottom: 90px;
-    left: 50%;
-    transform: translateX(-50%);
+}
+
+.scroll-icon-controls img{
+    position: static;
+    display: inline-block;
+}
+
+@media (min-width: 320px ) and (max-width: 414px) {
+    .scroll-icon-controls{
+        text-align: center;
+        padding: 80px 0 0 0;
+        display: block;
+    }
 }
 
 
@@ -43,9 +56,6 @@
     .movie-container object,
     .movie-container embed {
         height: 100%;
-    }
-    .scroll-icon{
-        display: block;
     }
 
     .vk-promo{
