@@ -60,8 +60,9 @@
 
     .vk-promo{
         margin: 0;
-        padding: 80px 0 0 0;
+        padding: 0;
         min-height: 560px;
+        align-items: center;
     }
 
 }
