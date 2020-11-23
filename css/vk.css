@@ -39,6 +39,11 @@
 
 
 @media (min-width: 320px ) and (max-width: 767px) {
+    .movie-container iframe,
+    .movie-container object,
+    .movie-container embed {
+        height: 100%;
+    }
     .scroll-icon{
         display: block;
     }
