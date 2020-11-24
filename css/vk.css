@@ -47,9 +47,6 @@
         display: block;
     }
 
-    .vk-promo{
-        padding: 30% 0 0 0;
-    }
 }
 
 
@@ -61,12 +58,19 @@
     }
 
     .vk-promo{
+        min-height: auto;
         margin: 0;
-        min-height: 560px;
+        padding: 30px 0 40px 0;
+        height: auto;
     }
+    .vk-promo.promo-item{
+        height: auto;
+    }
+
+
     .wrapper {
         background-image: url(../img/bg2.jpg);
-        background-position: 50% 0;
+        background-position: 50% -180px;
     }
 
 }
